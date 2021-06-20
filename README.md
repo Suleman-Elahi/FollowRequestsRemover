@@ -20,4 +20,6 @@ Currently only Windows and Linux executables are there.
 
 ## Screenshots:
 
+![image info](./screenshots/CFRDeleter.png)
+
 **Warning**: *Using Instagram like this may get your account banned, so proceed on your risk*.
