@@ -22,4 +22,8 @@ Currently only Windows and Linux executables are there.
 
 ![image info](./screenshots/CFRDeleter.png)
 
+![image info](./screenshots/CFRWin.png)
+
 **Warning**: *Using Instagram like this may get your account banned, so proceed on your risk*.
+
+Icon credits: [iconscout](https://iconscout.com/icon/users-2955700)
