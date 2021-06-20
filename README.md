@@ -14,7 +14,7 @@ Run it like this on any platform.
 
 ## Binary Releases:
 
-Self-contained binary releases can be downloaded from the Releases section. Just download and run them without installing Python or dependencies mentioned above.
+Self-contained binary releases can be downloaded from the [Releases section](https://github.com/Suleman-Elahi/FollowRequestsRemover/releases). Just download and run them without installing Python or dependencies mentioned above.
 
 Currently only Windows and Linux executables are there.
 
