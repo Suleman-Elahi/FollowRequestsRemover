@@ -6,9 +6,9 @@ Remove sent follow requests on Instagram with this tool here. May not work while
 
 ## Getting started:
 
- 1. **Clone repo and cd**: `git clone https://github.com/Suleman-Elahi/FollowRequestsRemover && cd FollowRequestsRemover`
- 2. **Install dependencies**: `pip3 install pyqt5 requests`
- 3. **Run app**: `python cfr.py`
+ 1. Clone repo and cd: `git clone https://github.com/Suleman-Elahi/FollowRequestsRemover && cd FollowRequestsRemover`
+ 2. Install dependencies: `pip3 install pyqt5 requests`
+ 3. Run app: `python cfr.py`
 
 Run it like this on any platform.
 
@@ -24,6 +24,6 @@ Currently only Windows and Linux executables are there.
 
 ![image info](./screenshots/CFRWin.png)
 
-**Warning**: *Using Instagram like this may get your account banned, so proceed on your risk*.
+**Warning**: *Using Instagram like this may get your account banned, so proceed on your own risk*.
 
 Icon credits: [iconscout](https://iconscout.com/icon/users-2955700)
