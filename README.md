@@ -27,3 +27,5 @@ Currently only Windows and Linux executables are there.
 **Warning**: *Using Instagram like this may get your account banned, so proceed on your own risk*.
 
 Icon credits: [iconscout](https://iconscout.com/icon/users-2955700)
+
+Note: I have created a Selenium version to remove sent follow requests and is safe and gets te job done but takes longer time. Try that here: https://github.com/Suleman-Elahi/Cancel_Instagram_Follow_Requests
