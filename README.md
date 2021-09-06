@@ -32,4 +32,4 @@ Currently only Windows and Linux executables are there.
 
 Icon credits: [iconscout](https://iconscout.com/icon/users-2955700)
 
-Note: I have created a Selenium version to remove sent follow requests and is safe and gets the job done but takes longer time. Try that here: https://github.com/Suleman-Elahi/Cancel_Instagram_Follow_Requests
+Note: I also created a Selenium version to remove sent follow requests and is safe and gets the job done but takes longer time. Try that here: https://github.com/Suleman-Elahi/Cancel_Instagram_Follow_Requests
