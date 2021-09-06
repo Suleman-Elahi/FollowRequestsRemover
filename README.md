@@ -1,3 +1,6 @@
+<a href="https://trackgit.com">
+<img src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/kt8nob49pwq5rxm1mpkk" alt="trackgit-views" />
+</a>
 # FollowRequestsRemover
 
 Remove sent follow requests on Instagram with this tool here. May not work while removing large number of requests, but can try by changing the sleep interval from 5 to 10 seconds or more.
@@ -28,4 +31,4 @@ Currently only Windows and Linux executables are there.
 
 Icon credits: [iconscout](https://iconscout.com/icon/users-2955700)
 
-Note: I have created a Selenium version to remove sent follow requests and is safe and gets te job done but takes longer time. Try that here: https://github.com/Suleman-Elahi/Cancel_Instagram_Follow_Requests
+Note: I have created a Selenium version to remove sent follow requests and is safe and gets the job done but takes longer time. Try that here: https://github.com/Suleman-Elahi/Cancel_Instagram_Follow_Requests
