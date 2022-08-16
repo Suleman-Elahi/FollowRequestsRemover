@@ -91,6 +91,7 @@ class Ui(QtWidgets.QMainWindow):
         msg.exec_()
     
     def headers(self, xcsrf):
+        
         req_heads = {
     'authority': 'www.instagram.com',
     'content-length': '0',
@@ -148,6 +149,7 @@ class Ui(QtWidgets.QMainWindow):
         QMessageBox.about(self, "Request Cancelled!", "Follow request cancelled for "+str(count)+" people.")
         
     def deleteAllRequests(self):
+        
         items = [self.cfrs.item(x) for x in range(self.cfrs.count())]
         count, pr = 0, 0
         val = int(100/len(self.usernames))
