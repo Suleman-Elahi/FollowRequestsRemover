@@ -138,8 +138,8 @@ class Ui(QtWidgets.QMainWindow):
         items = self.cfrs.selectedItems()
         val = int(100/len(items))
         for i in items:
-            r = self.session.get('https://www.instagram.com/'+ i.text() +'?__a=1')
-            uid = r.json()["graphql"]["user"]["id"]
+            r = self.session.get('https://www.instagram.com/web/search/topsearch/?query='+ i.text())
+            uid = r.json()["users"][0]["user"]["pk"]
             response = self.session.post('https://www.instagram.com/web/friendships/'+uid+'/unfollow/')
             count += 1
             pr = pr + val
@@ -154,8 +154,8 @@ class Ui(QtWidgets.QMainWindow):
         count, pr = 0, 0
         val = int(100/len(self.usernames))
         for i in items:
-            r = self.session.get('https://www.instagram.com/'+ i.text() +'?__a=1')
-            uid = r.json()["graphql"]["user"]["id"]
+            r = self.session.get('https://www.instagram.com/web/search/topsearch/?query='+ i.text())
+            uid = r.json()["users"][0]["user"]["pk"]
             response = self.session.post('https://www.instagram.com/web/friendships/'+uid+'/unfollow/')
             self.cfrs.takeItem(self.cfrs.indexFromItem(i).row())
             count += 1
