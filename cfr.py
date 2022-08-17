@@ -16,7 +16,7 @@ class Ui(QtWidgets.QMainWindow):
     def __init__(self):
         
         super(Ui, self).__init__()
-        uic.loadUi('CFR.ui', self)
+        uic.loadUi('./CFR.ui', self)
         self.cfrs.setSelectionMode(QtWidgets.QAbstractItemView.ExtendedSelection)
         self.center()
         self.show()
@@ -25,6 +25,8 @@ class Ui(QtWidgets.QMainWindow):
         self.log_out_exit.clicked.connect(self.logout)
         self.save_cfrs.clicked.connect(self.saveList)
         self.delete_all_cfr.clicked.connect(self.deleteAllRequests)
+        self.ig_user.setFocus()
+        self.ig_pwd.setEchoMode(QtWidgets.QLineEdit.Password)
         
     def buildList(self):
         
@@ -145,7 +147,7 @@ class Ui(QtWidgets.QMainWindow):
             pr = pr + val
             self.cfr_progress.setValue(pr)
             self.cfrs.takeItem(self.cfrs.indexFromItem(i).row())
-            time.sleep(5)
+            time.sleep(2.73)
         QMessageBox.about(self, "Request Cancelled!", "Follow request cancelled for "+str(count)+" people.")
         
     def deleteAllRequests(self):
@@ -161,7 +163,7 @@ class Ui(QtWidgets.QMainWindow):
             count += 1
             pr = pr + val
             self.cfr_progress.setValue(pr)
-            time.sleep(5)
+            time.sleep(2.65)
         QMessageBox.about(self, "Request Cancelled!", "Follow request cancelled for "+str(count)+" people.")
             
     def logout(self):
